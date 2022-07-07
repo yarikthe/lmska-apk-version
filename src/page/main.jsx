@@ -1,23 +1,32 @@
 import React from 'react';
-import Download from "../components/download";
+import DownloadList from "../components/download_list";
 
 function MainPage() {
     return (
         <div className="App">
-            <header className="header">
-                <img src="https://lmska.com/assets/img/lmska_ua.png" alt="logo"/>
-                <h1>LMSka Study APK Version Download</h1>
+            <header className={"fixed-top shadow"}>
+                <div className="container d-flex justify-content-between align-items-center">
+                    <img src="https://lmska.com/assets/img/lmska_ua.png" alt="logo" className={"logo"} />
+                    <div className="link d-flex">
+                        <a href="https://lmska.com" className={"p-1"}>
+                            LMSka
+                        </a>
+                        <a href="https://c.lmska.com" className={"p-1"}>
+                            User Cabinet
+                        </a>
+                        <a href="https://a.lmska.com" className={"p-1"}>
+                            Admin Cabinet
+                        </a>
+                        <a href="https://yarikthe.github.io/lmska-api" className={"p-1"}>
+                            Docs API
+                        </a>
+                    </div>
+                </div>
             </header>
             <main>
-                <hr/>
-                <div className="container">
-                    <Download url={'/download/app-release-v1.8.1_build-7.apk'} title={"LMSka Study v.1.8.1 build:7"}/>
-                    <Download url={'/download/app-release-v1.8.1_build-3.apk'} title={"LMSka Study v.1.8.1 build:3"}/>
-                    <Download url={'/download/app-release-v1.7.10_build-7.apk'} title={"LMSka Study v.1.7.10 build:7"}/>
-                    <Download url={'/download/app-release-v1.7.10_build-2.apk'} title={"LMSka Study v.1.7.10 build:2"}/>
-                </div>
+                <DownloadList />
             </main>
-            <footer>
+            <footer className={"fixed-bottom p-5"}>
                 <hr/>
                 <p>
                     Copyright © 2022 LMSka Study APK.

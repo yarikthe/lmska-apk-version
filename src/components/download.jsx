@@ -6,7 +6,7 @@ function Download(props) {
             <div className="card m-2 shadow">
                 <div className="card-body d-flex justify-content-between align-items-center">
                     <h5 className="card-title">{props.title}</h5>
-                    <a href={props.url} className="btn btn-primary" download>
+                    <a href={props.url} className="btn btn-lmska" download>
                         Download
                     </a>
                 </div>
