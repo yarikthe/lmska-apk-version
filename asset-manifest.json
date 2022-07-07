@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lmska-apk-version/static/css/main.073c9b0a.css",
+    "main.js": "/lmska-apk-version/static/js/main.eafc52ee.js",
+    "static/js/787.d10c2797.chunk.js": "/lmska-apk-version/static/js/787.d10c2797.chunk.js",
+    "index.html": "/lmska-apk-version/index.html",
+    "main.073c9b0a.css.map": "/lmska-apk-version/static/css/main.073c9b0a.css.map",
+    "main.eafc52ee.js.map": "/lmska-apk-version/static/js/main.eafc52ee.js.map",
+    "787.d10c2797.chunk.js.map": "/lmska-apk-version/static/js/787.d10c2797.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.eafc52ee.js"
+  ]
+}
