@@ -8,15 +8,6 @@ function MainPage() {
                 <div className="container d-flex justify-content-between align-items-center">
                     <img src="https://lmska.com/assets/img/lmska_ua.png" alt="logo" className={"logo"} />
                     <div className="link d-flex">
-                        <a href="https://lmska.com" className={"p-1"}>
-                            LMSka
-                        </a>
-                        <a href="https://c.lmska.com" className={"p-1"}>
-                            User Cabinet
-                        </a>
-                        <a href="https://a.lmska.com" className={"p-1"}>
-                            Admin Cabinet
-                        </a>
                         <a href="https://yarikthe.github.io/lmska-api" className={"p-1"}>
                             Docs API
                         </a>
