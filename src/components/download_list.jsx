@@ -10,6 +10,7 @@ function DownloadList() {
                 <h2>Version</h2>
                 <hr/>
             </div>
+             <Download url={'/lmska-apk-version/download/app-release-v1.8.3_build-2.apk'} title={"LMSka Study v.1.8.3 build:3"}/>
             <Download url={'/lmska-apk-version/download/app-release-v1.8.3_build-2.apk'} title={"LMSka Study v.1.8.3 build:2"}/>
             <Download url={'/lmska-apk-version/download/app-release-v1.8.2_build-5.apk'} title={"LMSka Study v.1.8.2 build:5"}/>
             <Download url={'/lmska-apk-version/download/app-release-v1.8.2_build-3.apk'} title={"LMSka Study v.1.8.2 build:3"}/>
