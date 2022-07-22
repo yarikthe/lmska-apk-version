@@ -17,9 +17,8 @@ function MainPage() {
             <main>
                 <DownloadList />
             </main>
-            <footer className={"fixed-bottom p-5"}>
-                <hr/>
-                <p>
+            <footer className={"fixed-bottom bg-dark pt-3"}>
+                <p className={"container text-white p-2"}>
                     Copyright © 2022 LMSka Study APK.
                 </p>
             </footer>
